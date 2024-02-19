@@ -61,8 +61,12 @@ public class BankAcount {
 
 
     public void depositFunds(double amount) {
-        balance += amount;
-        display();
+        if(amount<400)
+            System.out.println("You need to deposit at least 400 leva.");
+        else {
+            balance += amount;
+            display();
+        }
     }
 
     public void withdrawFunds(double amount) {
