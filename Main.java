@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
 
-        BankAcount bankAcount=new BankAcount(1,1500.0,"Georgi","georgi@gmail.com","0887569328");
-
+        //BankAcount bankAcount=new BankAcount(1,1500.0,"Georgi","georgi@gmail.com","0887569328");
+        BankAcount bankAcount=new BankAcount();
         bankAcount.display();
         System.out.println();
         bankAcount.depositFunds(1);
