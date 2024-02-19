@@ -18,6 +18,11 @@ public class BankAcount {
         this.phoneNumber = phoneNumber;
     }
 
+    public BankAcount(String customerName,String email,String phoneNumber)
+    {
+        this(9999,1000.0,customerName,email,phoneNumber);
+    }
+
 
     public int getNumber() {
         return number;
